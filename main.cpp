@@ -25,7 +25,7 @@ int main(int argc, const char * argv[])
     myReadFile.close();
     
     
-    
+    std::cout << "The sum of all numbers in the files is: " << std::endl;
     std::cout << sum << "\n";
     
     return 0;
